@@ -1,6 +1,6 @@
 # web приложение для поиска отелей
 
-:tada: [Демо](https://hotels-test-olya.vercel.app/)
+:tada: [Демо](https://users-test-two.vercel.app/)
 
 :large_blue_circle: В приложении 4 экрана:
 - Список пользователей

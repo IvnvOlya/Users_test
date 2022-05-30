@@ -1,0 +1,52 @@
+.UserData {
+  padding-top: 36px;
+}
+table {
+  border-right: 1px solid #333;
+  border-left: 1px solid #333;
+}
+td:not(:last-child) {
+  border-right: 1px solid #333;
+}
+
+.UserData_details {
+  padding-left: 53px;
+  padding-right: 61px;
+  border: 1px solid #000000;
+}
+.UserData_heading {
+  padding: 11px 0 13px 18px;
+  margin: 0;
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+  border-bottom: 1px solid #333;
+
+}
+table {
+  border-collapse: separate;
+}
+.UserData_block {
+  display: flex;
+  justify-content: space-between;
+}
+.UserData_more {
+  padding: 10px 13px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 17px;
+}
+.UserData_btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #ffffff;
+  background: #000000;
+  padding: 14.5px 28px;
+}

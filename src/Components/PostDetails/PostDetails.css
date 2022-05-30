@@ -1,0 +1,59 @@
+.PostDetails_post,
+.PostDetails_comment {
+  margin: 25px 0;
+  padding: 16px 53px;
+  border: 1px solid #000000;
+}
+.PostDetails_post_text,
+.PostDetails_block {
+  border: 1px solid #000000;
+  padding: 14px 34px;
+}
+.PostDetails_post_title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+.PostDetails_post_body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #939393;
+}
+.PostDetails_block {
+  margin-top: 15px;
+}
+.PostDetails_heading {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
+.PostDetails_description {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+.PostDetails_comments {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939393;
+}
+.PostDetails_btn {
+  display: flex;
+  justify-content: center;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  margin: 15px 0 10px;
+}

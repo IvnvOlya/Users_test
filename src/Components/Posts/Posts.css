@@ -1,0 +1,33 @@
+.Posts{
+  display: flex;
+}
+.Posts_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px 23px 17px 35px;
+  margin: 4px 19px 0 0;
+  border: 1px solid rgb(0, 0, 0);
+}
+.Posts_heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+.Posts_body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* ограничение 1ой строками */
+  -webkit-line-clamp: 1; 
+  /* скрываем остальной текст, который не поместился */
+  overflow: hidden;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.41);
+}

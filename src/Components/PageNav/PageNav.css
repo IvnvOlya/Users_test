@@ -1,0 +1,27 @@
+.PageNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 61px;
+  background: #101010;
+}
+.PageNav_heading {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.PageNav_btns {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 15px 0;
+}
+.PageNav_btn {
+  padding: 11.5px 40.5px;
+}

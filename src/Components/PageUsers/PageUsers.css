@@ -1,0 +1,38 @@
+.PageUsers_section {
+  position: relative;
+  padding-bottom: 35px;
+  background-image: url("../../img/BackgroundLogo.png");
+  background-repeat: no-repeat;
+}
+.PageUsers_block {
+  position: absolute;
+  width: 593px;
+  height: 156px;
+  left: 261px;
+  top: 238px;
+  background: radial-gradient(50% 50% at 50% 50%,#000000 0%,rgba(0, 0, 0, 0) 100%);
+}
+.PageUsers_text{
+  position: relative;
+}
+.PageUsers_heading,
+.PageUsers_description {
+  font-family: "Alegreya Sans SC";
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+.PageUsers_heading {
+  padding-top: 157px;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.PageUsers_description {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  font-size: 30px;
+  line-height: 36px;
+}

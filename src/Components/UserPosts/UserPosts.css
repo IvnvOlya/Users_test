@@ -1,0 +1,28 @@
+.UserPosts {
+  margin-top: 25px;
+  padding-left: 53px;
+  padding-top: 16px;
+  padding-right: 53px;
+  padding-bottom: 33px;
+  border: 1px solid rgb(0, 0, 0);
+}
+.UserPosts_heading {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
+.UserPosts_link {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration:underline;
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  color: #051877;
+}

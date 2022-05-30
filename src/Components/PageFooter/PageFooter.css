@@ -1,0 +1,13 @@
+.PageFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.PageFooter_btn {
+  padding: 11.5px 59.5px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}

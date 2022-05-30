@@ -1,0 +1,59 @@
+.PostItem {
+  margin-top: 20px;
+}
+.PostItem_heading {
+  text-align: center;
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
+.Post {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2vw;
+}
+.Post_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px 23px 17px 30px;
+  margin: 4px 19px 0 0;
+  border: 1px solid rgb(0, 0, 0);
+}
+.Post_heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+.Post_body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* ограничение 1ой строками */
+  -webkit-line-clamp: 1;
+  /* скрываем остальной текст, который не поместился */
+  overflow: hidden;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  padding-top: 6px;
+  color: rgba(0, 0, 0, 0.41);
+}
+
+.Post_link {
+  display: flex;
+  justify-content: end;
+  padding-top: 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}

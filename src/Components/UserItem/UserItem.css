@@ -1,0 +1,34 @@
+.User {
+  border: 1px solid #000000;
+  padding: 14px 50px 30px 17px;
+}
+.UserItem {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+}
+.UserItem_data {
+  padding-bottom: 45px;
+}
+.UserItem_name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+.UserItem_city {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.41);
+}
+.UserItem_btn {
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #101010;
+}

@@ -1,0 +1,22 @@
+.Tickets {
+  padding: 0 61px;
+  margin-top: 31px;
+}
+.Tickets_block {
+  display: flex;
+  justify-content: space-between;
+}
+.Tickets_buy {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
+.Tickets_count {
+  font-family: "Alegreya Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+}
